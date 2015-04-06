@@ -15,7 +15,7 @@ import XCPlayground
 //  Setup playground to run in full simulator (⌘-0:Select Playground File; ⌘-alt-0:Choose option Run in Full Simulator)
 
 //approach 2 using a custom stroke font requires special font without an outline whose path is the actual fill
-var customFontPath = NSBundle.mainBundle().pathForResource("cwTeXFangSong-zhonly", ofType: "ttf")
+var customFontPath = NSBundle.mainBundle().pathForResource("OLFTestFont-Regular", ofType: "ttf")
 
 //  Within the playground folder create Resources folder to hold fonts. NB - Sources folder can also be created to hold additional Swift files
 //ORTE1LOT.otf
@@ -25,6 +25,7 @@ var customFontPath = NSBundle.mainBundle().pathForResource("cwTeXFangSong-zhonly
 //cwTeXKai-zhonly
 //cwTeXMing-zhonly
 //cwTeXYen-zhonly
+//OLFTestFont-Regular
 
 var customFontData = NSData(contentsOfFile: customFontPath!) as! CFDataRef
 var error:UnsafeMutablePointer<Unmanaged<CFError>?> = nil
@@ -38,11 +39,11 @@ if !registered  {
  
 }
 
-let string:NSString = "五"
+let string:NSString = "A"
 //"ABCDEFGHIJKLMNOPQRSTUVWXYZ一二三四五六七八九十什我是美国人"
 
 //use the Postscript name of the font
-let font =  CTFontCreateWithName("cwTeXFangSong", 72, nil)
+let font =  CTFontCreateWithName("OLFTestFont-Regular", 72, nil)
 //HiraMinProN-W6
 //WeibeiTC-Bold
 //OrachTechDemo1Lotf
@@ -155,6 +156,7 @@ if gotGlyphs {
     
     
     var pathLayer = CAShapeLayer()
+    pathLayer.geometryFlipped = true
     pathLayer.frame = CGRect(origin: CGPointZero, size: CGSizeMake(300.0,300.0))
     pathLayer.lineJoin = kCALineJoinRound
     pathLayer.lineCap = kCALineCapRound

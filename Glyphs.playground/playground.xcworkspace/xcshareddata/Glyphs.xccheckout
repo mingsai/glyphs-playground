@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E5B015DF-4B1B-409C-BBC5-3372536D8156</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Glyphs</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C3F4B8B5951704860D214AEDAC22ADF034FB00FB</key>
+		<string>https://github.com/mingsai/glyphs-playground.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Glyphs.playground</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C3F4B8B5951704860D214AEDAC22ADF034FB00FB</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mingsai/glyphs-playground.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C3F4B8B5951704860D214AEDAC22ADF034FB00FB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C3F4B8B5951704860D214AEDAC22ADF034FB00FB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>glyphs-playground</string>
+		</dict>
+	</array>
+</dict>
+</plist>
